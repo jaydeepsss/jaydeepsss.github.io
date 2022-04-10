@@ -1,0 +1,89 @@
+.main-container {
+	width:100vw;
+	height:100vh; 
+	background-color: e7e9eb;
+}
+.default {
+	background: rgb(77,77,0);
+	color:white;
+}
+
+.correct {
+	background: green;
+}
+
+.incorrect {
+	background: red;
+}
+.gm_container{
+	border: 2px #062039 solid;
+    width: 35%;
+	min-width:300px;
+    height: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+	padding: 1rem;
+}
+.gm_field_container{
+}
+
+.btn-teal{
+	background-color: teal;
+	color:bisque;
+}
+.btn-teal:hover,
+.btn-teal:focus,
+.btn-teal:not(:disabled):not(.disabled).active{
+	background-color: teal;
+	border-color: teal;
+	outline:teal;
+	color:bisque;
+	font-weight:600;
+}
+.btn-tomato{
+	background-color: tomato;
+	color:bisque;
+}
+.btn-tomato:hover,
+.btn-tomato:focus,
+.btn-tomato:not(:disabled):not(.disabled).active{
+	background-color: tomato;
+	border-color: tomato;
+	outline:tomato;
+	/* outline: 0 0 0 0.2rem rgb(0 128 128 / 50%); */
+	color:bisque;
+	font-weight:600;
+}
+.gm_perfmnce{
+	font-size: large;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform:uppercase;
+}
+.gm_qustn{
+	font-size: xx-large;
+	font-weight: 700;
+	letter-spacing: 10px;
+	line-height: 2;
+	margin: 2rem 0;
+}
+
+.options.btn-lg{
+	font-size: xx-large;
+	font-weight: 500;
+}
+
+.gm_spintimer{
+	display:inline-flex;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.modal.show .modal-dialog{
+	top:50%;
+	transform: translateY(-50%);
+}
